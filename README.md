@@ -1,4 +1,5 @@
 # vue-test
+<<<<<<< HEAD
 
 ## Project setup
 ```
@@ -32,3 +33,6 @@ yarn run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+Vuejs App
+>>>>>>> af53020827b97cc92be7ca52f35b3e61149a634f

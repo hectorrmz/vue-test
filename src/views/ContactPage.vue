@@ -25,14 +25,8 @@ export default Vue.extend({
   },
   methods: {
     updateUser(user: User) {
-      yesNoService.getAnswer().then(res => {
-        if (user.id) {
-          this.$store.commit('updateUser', { ...user });
-        } else {
-          this.$store.commit('createUser', { ...user });
-        }
-
-        this.$router.push({ name: 'home', params: { data: res.data } });
+      this.$store.dispatch('submitUser', user).then(res => {
+        this.$router.push({ name: 'home', params: { data: res } });
       });
     },
   },

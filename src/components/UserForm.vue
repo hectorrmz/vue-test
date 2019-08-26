@@ -51,7 +51,6 @@
       <button type="submit" class="btn primary" v-once>{{btnText}}</button>
       <button type="button" @click="cancel" class="btn secondary">Cancel</button>
     </div>
-    {{$v.userData.username}}
   </form>
 </template>
 
@@ -78,9 +77,6 @@ export default Vue.extend({
       options: ['Admin', 'Super', 'Normal', 'Slave'],
       userData: { ...this.user },
     };
-  },
-  mounted() {
-    console.log(this.userData);
   },
   computed: {
     btnText(): string {

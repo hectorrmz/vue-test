@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Test Update",
+      "email": "johndoe23@email.com",
+      "password": "Pass123.",
+      "confirmPassword": "",
+      "role": "Admin"
+    },
+    {
+      "id": 2,
+      "username": "This is A Test",
+      "email": "johndoe23@email.com",
+      "password": "Pass123.",
+      "confirmPassword": "",
+      "role": "Admin"
+    },
+    {
+      "id": 3,
+      "username": "User 3",
+      "email": "johndoe23@email.com",
+      "password": "Pass123.",
+      "confirmPassword": "",
+      "role": "Admin"
+    },
+    {
+      "id": 4,
+      "username": "JohnDoe_34",
+      "email": "johndoe23@email.com",
+      "password": "Pass123.",
+      "confirmPassword": "",
+      "role": "Super"
+    },
+    {
+      "id": 5,
+      "username": "Joel",
+      "email": "johndoe23@email.com",
+      "password": "Pass123.",
+      "confirmPassword": "",
+      "role": "Normal"
+    },
+    {
+      "id": 6,
+      "username": "Will",
+      "email": "johndoe23@email.com",
+      "password": "Pass123.",
+      "confirmPassword": "",
+      "role": "Admin"
+    },
+    {
+      "id": 7,
+      "username": "Dustin",
+      "email": "johndoe23@email.com",
+      "password": "Pass123.",
+      "confirmPassword": "",
+      "role": "Admin"
+    },
+    {
+      "id": 8,
+      "username": "JohnDoe_34",
+      "email": "johndoe23@email.com",
+      "password": "Pass123.",
+      "confirmPassword": "",
+      "role": "Slave"
+    },
+    {
+      "username": "New Test",
+      "email": "mail@mail.com",
+      "password": "dsfdfs",
+      "confirmPassword": "",
+      "role": "Super",
+      "id": 9
+    },
+    {
+      "username": "Create New One",
+      "email": "mail@mail.com",
+      "password": "json sub",
+      "confirmPassword": "",
+      "role": "Admin",
+      "id": 10
+    }
+  ]
+}

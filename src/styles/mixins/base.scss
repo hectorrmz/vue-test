@@ -1,0 +1,4 @@
+@mixin header($font-size, $margin) {
+  font-size: $font-size;
+  margin: $margin 0;
+}

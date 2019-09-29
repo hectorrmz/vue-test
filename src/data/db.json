@@ -3,7 +3,7 @@
     {
       "id": 1,
       "username": "Test Update",
-      "email": "johndoe23@email.com",
+      "email": "johndoe23@email.edu",
       "password": "Pass123.",
       "confirmPassword": "",
       "role": "Admin"
